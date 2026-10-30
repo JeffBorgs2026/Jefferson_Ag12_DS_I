@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Configuração de codificação de caracteres -->
     <meta charset="UTF-8">
+    <!-- Ajuste de escala para dispositivos móveis e responsividade -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da aba do navegador conforme a exigência da atividade -->
     <title>Meus sites favoritos</title>
     <style>
+        /* Estilização geral do corpo da página */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
@@ -13,9 +17,11 @@
             padding: 20px;
             text-align: center;
         }
+        /* Cor do título principal */
         h1 {
             color: #2c3e50;
         }
+        /* Configuração do layout em grade (grid) para os cards */
         .sites-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -23,6 +29,7 @@
             max-width: 800px;
             margin: 0 auto;
         }
+        /* Estilo do container individual de cada site */
         .site-container {
             background: #ffffff;
             padding: 15px;
@@ -30,6 +37,7 @@
             box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
             text-align: center;
         }
+        /* Definição de tamanho e bordas para as 5 imagens */
         img {
             width: 100px;
             height: 100px;
@@ -39,6 +47,7 @@
             margin-top: 10px;
             margin-bottom: 5px;
         }
+        /* Estilização dos links de texto */
         a {
             display: inline-block;
             color: #2980b9;
@@ -47,6 +56,7 @@
             font-size: 14px;
             margin-top: 5px;
         }
+        /* Efeito visual ao passar o mouse sobre o link */
         a:hover {
             text-decoration: underline;
         }
@@ -54,57 +64,69 @@
 </head>
 <body>
 
+    <!-- Título do corpo da página incluindo o seu nome -->
     <h1>Meus sites favoritos: Jefferson Borges Calaça</h1>
     <p>Lista de portais e plataformas essenciais para estudos e produtividade.</p>
 
     <div class="sites-grid">
         <!-- Item 1: GitHub -->
         <div class="site-container">
+            <!-- Nome do site exigido acima da imagem (usando a tag h1) -->
             <h1>GitHub</h1>
+            <!-- Tag <a> envolvendo a imagem para torná-la clicável e linkada ao site -->
             <a href="https://github.com" target="_blank">
                 <img src="github.png" alt="Logotipo do GitHub">
             </a>
             <br>
+            <!-- Link para o site inserido abaixo da imagem -->
             <a href="https://github.com" target="_blank">Acessar o GitHub</a>
         </div>
 
         <!-- Item 2: Stack Overflow -->
         <div class="site-container">
+            <!-- Nome do site acima da imagem -->
             <h1>Stack Overflow</h1>
             <a href="https://stackoverflow.com" target="_blank">
                 <img src="stackoverflow.png" alt="Logotipo do Stack Overflow">
             </a>
             <br>
+            <!-- Link do site abaixo da imagem -->
             <a href="https://stackoverflow.com" target="_blank">Acessar o Stack Overflow</a>
         </div>
 
         <!-- Item 3: W3Schools -->
         <div class="site-container">
+            <!-- Nome do site acima da imagem -->
             <h1>W3Schools</h1>
             <a href="https://www.w3schools.com" target="_blank">
                 <img src="w3schools.png" alt="Logotipo do W3Schools">
             </a>
             <br>
+            <!-- Link do site abaixo da imagem -->
             <a href="https://www.w3schools.com" target="_blank">Acessar o W3Schools</a>
         </div>
 
         <!-- Item 4: Wikipedia -->
         <div class="site-container">
+            <!-- Nome do site acima da imagem -->
             <h1>Wikipédia</h1>
             <a href="https://pt.wikipedia.org" target="_blank">
                 <img src="wikipedia.png" alt="Logotipo da Wikipédia">
             </a>
             <br>
+            <!-- Link do site abaixo da imagem -->
             <a href="https://pt.wikipedia.org" target="_blank">Acessar a Wikipédia</a>
         </div>
 
         <!-- Item 5: Python.org -->
         <div class="site-container">
+            <!-- Nome do site acima da imagem -->
             <h1>Python</h1>
             <a href="https://www.python.org" target="_blank">
                 <img src="python.png" alt="Logotipo do Python">
             </a>
             <br>
+            <!-- Link do site abaixo da imagem -->
             <a href="https://www.python.org" target="_blank">Acessar o Python.org</a>
         </div>
     </div>
